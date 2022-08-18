@@ -48,7 +48,7 @@ const Task = () => {
    <View style={{marginTop:20}}>
      <View style={{flexDirection:"row", justifyContent:"space-between"}}>
      <View>
-     <Text style={{fontFamily:"Poppins", 
+     <Text style={{ 
      fontStyle:"Regular", fontSize:18}}>Task Created</Text>
       </View>
       <View style={{flexDirection:"row", 

@@ -2,6 +2,7 @@ import { View, Text} from 'react-native'
 import React from 'react'
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { SimpleLineIcons } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons';
 
 
 
@@ -19,8 +20,7 @@ const PlannerScreen = () => {
           justifyContent:"space-between",
           backgroundColor:"#B8FDBB", borderRadius:10, height:50}}>
           <View style={{flexDirection:"row", margin:10}}>
-              <MaterialCommunityIcons name="email-check-outline" 
-            size={20} color="black" style={{marginRight:10}}/>
+          <AntDesign name="picture" size={20} color="black" style={{marginRight:10}} />
             <MaterialCommunityIcons name="bell-outline" 
             size={20} color="black"  style={{marginRight: 10}}/>
             <MaterialCommunityIcons name="palette-outline" 
